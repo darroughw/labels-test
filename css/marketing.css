@@ -1,0 +1,228 @@
+body {
+
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue","HelvLightIBM",Arial,sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    overflow-x: hidden;
+    font-weight: 300;
+    background: #f5f7fa;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: 300px !important;
+}
+
+section {
+  background: #fff;
+  padding: 60px 0;
+  line-height: 28px;
+font-size: 18px;
+}
+
+section:nth-child(odd) {
+  background: #f5f7fa
+}
+
+section.hero {
+  background: url(../img/marketing-hero.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+  color: #fff;
+}
+
+section.heroColor {
+  background: #5898e3 url(../img/hex.svg) no-repeat center bottom -200px;
+  background-size:2000px;
+  text-align: center;
+  position: relative;
+  padding-top: 200px;
+  color: #fff;
+}
+
+section.Starthero {
+  background: url(../img/getStarted.png) no-repeat right bottom;
+  background-size: cover;
+position: relative;
+  text-align: center;
+  padding-top: 150px;
+  color: #fff;
+}
+
+.heroContent {
+  z-index: 3;
+  position: relative;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0;
+  height: 80px;
+  background: url(../img/header.png) repeat;
+  z-index: 2;
+  background-size: auto 80px;
+}
+.header-right {
+  width: 337px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../img/header-right.png) no-repeat right top;
+  background-size: 337px auto;
+}
+
+.header-left {
+  width: 50%;
+  height: 55px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/header-left.png) no-repeat left top;
+  background-size: auto 55px;
+}
+
+.bottom-right {
+  width: 50%;
+  height: 75px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: url(../img/bottom-right.png) no-repeat right top;
+  background-size: auto 55px;
+}
+
+.bottom-left {
+  width: 312px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../img/bottom-left.png) no-repeat left top;
+  background-size: 312px auto;
+}
+
+.hero span, .Starthero span {
+  font-size:38px;  
+  padding-top: 300px;
+}
+
+.overlay {
+     background: rgba(61,112,178, 0.65);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+
+}
+
+.startUp {
+  margin-bottom: 60px;
+}
+
+
+.iconBlock {
+  display: inline-block;
+  padding: 20px;
+}
+
+.iconBlock img {
+  height: 45px;
+}
+
+.laptop {
+    height: 240px;
+    margin: 0px 0;
+    margin-top: 20px;
+}
+
+#CD-catalog {
+  position: absolute;
+  top: 80px;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #f7fafc
+
+}
+
+#catalog-bottom {
+  position: fixed;
+  z-index: 5;
+  height:70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #ccc;
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 979px)  {
+.laptop {
+    height: 180px;
+    margin: 20px 0;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+.laptop {
+    height: 180px;
+    margin: 20px 0;
+}
+
+}
+
+
+@media (max-width:768px) {
+.laptop {
+    height: 180px;
+    margin: 20px 0;
+}
+  
+}
+
+
+@media (max-width: 767px) {
+
+
+}
+
+
+@media only screen and (max-width: 620px) {
+section.hero {
+  padding-top: 110px;
+}
+}
+
+
+@media only screen and (max-width: 500px) {
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+}
+
+
+@media only screen and (max-width:420px){
+  .laptop {height: 150px; margin: 20px 0; margin-top: 110px}
+}
+
+@media only screen and (max-width:320px){
+}

@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Labels</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dragula.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src='js/dragula.min.js'></script>
+    <script src='js/carbon-components.min.js'></script>
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h3>Unassigned labels</h3>
+                <ul class="unassigned" id="unassigned">
+                    <li class="bugBox">bugs_1 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_2 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_3 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_4 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_5 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_6 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_7 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_8 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_9 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_10 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_11 <small>30 issues</small></li>
+                    <li class="bugBox">bugs_12 <small>30 issues</small></li>
+                </ul> <a href="#" style="font-size: 14px;">Show all labels</a> </div>
+            <div class="col-lg-6">
+                <h3>Assigned labels</h3>
+                <div class="issueTable active">
+                    <div class="tableTabs">
+                        <div class="tableTab active" id="type">Issue type</div>
+                        <div class="tableTab" id="priority">Issue priority</div>
+                        <div class="tableTab" id="severity">Issue severity</div>
+                    </div>
+                    <div class="tableHeader">Name</div>
+                    <div class="issueGroup active" id="typeTable">
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">defects</div>
+                            <ul class="bugList" id="buglist1">
+                                <li class="bugBox">bugs_13 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_14 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_15 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_16 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_17 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_18 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_19 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_20 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_21 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">improvements</div>
+                            <ul class="bugList" id="buglist2">
+                                <li class="bugBox">bugs_22 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_23 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_24 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_25 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_26 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_27 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_28 <small>30 issues</small></li>
+                                <li class="bugBox">bugs_29 <small>24 issues</small></li>
+                                <li class="bugBox">bugs_30 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">questions</div>
+                            <ul class="bugList" id="buglist3">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">communications</div>
+                            <div class="bugList"> </div>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">documentation</div>
+                            <ul class="bugList" id="buglist4">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="issueGroup" id="priorityTable">
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">defects</div>
+                            <ul class="bugList" id="buglist5">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">improvements</div>
+                            <ul class="bugList" id="buglist6">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">questions</div>
+                            <ul class="bugList" id="buglist7">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">communications</div>
+                            <ul class="bugList" id="buglist8">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">documentation</div>
+                            <div class="bugList"> </div>
+                        </div>
+                    </div>
+                    <div class="issueGroup" id="severityTable">
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">defects</div>
+                            <ul class="bugList" id="buglist9">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">improvements</div>
+                            <ul class="bugList" id="buglist10">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">questions</div>
+                            <ul class="bugList" id="buglist11">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">communications</div>
+                            <ul class="bugList" id="buglist12">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                        <div class="tableRow">
+                            <div class="arrow"></div>
+                            <div class="rowTitle">documentation</div>
+                            <ul class="bugList" id="buglist13">
+                                <li class="bugBox">bugs_31 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_32 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_33 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_34 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_35 <small>3 issues</small></li>
+                                <li class="bugBox">bugs_36 <small>3 issues</small></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 repos-assigned">
+                <h3>Repositories assigned</h3>
+                <div class="repos">
+                    <table>
+                        <tbody>
+                            <tr tabindex="0">
+                                <td class="bx--table-select"> <input id="bx--checkbox-1" class="bx--checkbox" type="checkbox" value="green" name="checkbox" checked> <label for="bx--checkbox-1" class="bx--checkbox-label">
+                                <span class="bx--checkbox-appearance">
+                                    <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
+                                        <path d="M4.1 6.1L1.4 3.4 0 4.9 4.1 9l7.6-7.6L10.3 0z"></path>
+                                    </svg>
+                                </span>
+                            </td>
+                                <td>Repo_1</td>
+                            </tr>
+                            <tr tabindex="0">
+                                <td class="bx--table-select">
+                                    <input id="bx--checkbox-2" class="bx--checkbox" type="checkbox" value="green" name="checkbox" checked>
+                                    <label for="bx--checkbox-2" class="bx--checkbox-label">
+                                        <span class="bx--checkbox-appearance">
+                                            <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
+                                                <path d="M4.1 6.1L1.4 3.4 0 4.9 4.1 9l7.6-7.6L10.3 0z"></path>
+                                            </svg>
+                                        </span>
+                                    </td>
+                                <td>Repo_2</td>
+                            </tr>
+                            <tr tabindex="0">
+                                <td class="bx--table-select">
+                                    <input id="bx--checkbox-3" class="bx--checkbox" type="checkbox" value="green" name="checkbox" checked>
+                                    <label for="bx--checkbox-3" class="bx--checkbox-label">
+                                    <span class="bx--checkbox-appearance">
+                                        <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
+                                            <path d="M4.1 6.1L1.4 3.4 0 4.9 4.1 9l7.6-7.6L10.3 0z"></path>
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>Repo_3</td>
+                            </tr>
+                            <tr tabindex="0">
+                                <td class="bx--table-select">
+                                    <input id="bx--checkbox-4" class="bx--checkbox" type="checkbox" value="green" name="checkbox" checked>
+                                    <label for="bx--checkbox-4" class="bx--checkbox-label">
+                                        <span class="bx--checkbox-appearance">
+                                            <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
+                                                <path d="M4.1 6.1L1.4 3.4 0 4.9 4.1 9l7.6-7.6L10.3 0z"></path>
+                                            </svg>
+                                    </span>
+                            </td>
+                                <td>Repo_4</td>
+                            </tr>
+                            <tr tabindex="0">
+                                <td class="bx--table-select">
+                                    <input id="bx--checkbox-5" class="bx--checkbox" type="checkbox" value="green" name="checkbox" checked>
+                                    <label for="bx--checkbox-5" class="bx--checkbox-label">
+                                    <span class="bx--checkbox-appearance">
+                                        <svg class="bx--checkbox-checkmark" width="12" height="9" viewBox="0 0 12 9" fill-rule="evenodd">
+                                            <path d="M4.1 6.1L1.4 3.4 0 4.9 4.1 9l7.6-7.6L10.3 0z"></path>
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>Repo_5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
